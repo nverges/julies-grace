@@ -1,0 +1,36 @@
+{
+  "name": "julies-grace",
+  "version": "1.0.0",
+  "description": "Placement service for Senior Care home facilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nverges/julies-grace.git"
+  },
+  "author": "Nick Verges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nverges/julies-grace/issues"
+  },
+  "homepage": "https://github.com/nverges/julies-grace#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.4.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "sequelize": "^4.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
