@@ -7,6 +7,9 @@ import React, { Component } from 'react';
 
 // Import Child components
 import Navbar from './Home/Navbar.jsx';
+import Jumbotron from './Home/Jumbotron.jsx';
+import About from './Home/About.jsx';
+import Login from './Login.jsx';
 
 
 // ***** Might change this to Stateless *****
@@ -27,6 +30,8 @@ export default class Home extends Component {
 
         {/* Write code here */}  
         <Navbar />
+        <Jumbotron />
+        <About />
 
       </div>
     );

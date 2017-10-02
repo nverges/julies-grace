@@ -25,6 +25,9 @@ const  Navbar = (props) => {
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#section-contact"><h4>Contact</h4></a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="/login"><h4>Login</h4></a>
+            </li>
           </ul>
         </div>
       </div>
